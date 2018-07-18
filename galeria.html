@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <title>Title</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/png">
+    <link rel="icon" href="./favicon.png" type="image/png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/mobile.css">
+    <link href="css/flexbox-gallery.css" rel="stylesheet" type="text/css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="head">
+            <nav class="navigation">
+                <ul>
+                    <li class="nav_item"><a href="./index.html">Kezdőlap</a></li>
+                    <li class="nav_item">
+                        <a href="#vallalok">Amit vállalok</a>
+                    </li>
+                    <li class="nav_item active">
+                        <a href="#gallerya">Galéria</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#kollega">Kollégáim</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="galeria" id="gallerya">
+            <div class="container1">
+                <h1>Eddigi munkáim</h1>
+                <div id="gallery" class="gallery">
+                    <figure>
+                        <img class="gallerymage" src="https://placeimg.com/960/630/arch">
+                    </figure>
+                    <figure>
+                        <img class="gallerymage" src="https://placeimg.com/477/720/arch">
+                    </figure>
+                    <figure>
+                        <img class="gallerymage" src="https://placeimg.com/960/606/arch">
+                    </figure>
+                    <figure>
+                        <img class="gallerymage" src="https://placeimg.com/480/720/arch">
+                    </figure>
+                    <figure>
+                        <img class="gallerymage" src="https://placeimg.com/960/640/nature">
+                    </figure>
+                    <figure>
+                        <img class="gallerymage" src="https://placeimg.com/480/720/people">
+                    </figure>
+                    <figure>
+                        <img class="gallerymage" src="https://placeimg.com/960/640/tech">
+                    </figure>
+                    <figure>
+                        <img class="gallerymage" src="https://placeimg.com/960/640/tech">
+                    </figure>
+                    <figure>
+                        <img class="gallerymage" src="https://placeimg.com/960/640/animals">
+                    </figure>
+                    <figure>
+                        <img class="gallerymage" src="https://placeimg.com/496/720/people">
+                    </figure>
+                    <figure>
+                        <img class="gallerymage" src="https://placeimg.com/960/540/animals">
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <footer>
+                <div class="foot">
+                    <!-- <h1>
+                        <b>Elérhetőségek:</b>
+                    </h1>-->
+                    <ul>
+                        <li>
+                            <img class="social" src="img/phoneicon.png" alt="Tel">
+                            <b>Tel:</b> +36-30-934-7451</li>
+                        <li>
+                            <img class="social" src="img/mailicon.png" alt="Email">
+                            <b>E-mail:</b> jozsiadeak@gmail.com</li>
+                        <li>
+                            <a href="https://www.facebook.com/jozsef.deak.754" target="_blank">
+                                <img class="social" src="img/fblogo.png" alt="FB">
+                                <b>Facebook</b>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js"></script>
+    <script src="js/flexbox-gallery.js"></script>
+    <script>
+        $('#gallery').flexgal();
+    </script>
+</body>
+
+</html>
