@@ -1,0 +1,30 @@
+{
+  "name": "weboldal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.24.5",
+    "gulp-css": "^0.1.0",
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-plumber": "^1.2.0",
+    "npm": "^6.2.0",
+    "st": "^1.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duplade/weboldal.git"
+  },
+  "author": "DuplaD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duplade/weboldal/issues"
+  },
+  "homepage": "https://github.com/Duplade/weboldal#readme"
+}
